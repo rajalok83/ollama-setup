@@ -28,8 +28,12 @@ Basic Streamlit App to connect to Ollama Models running locally and converse wit
    ```bash
     ollama serve
    ```  
-
-4. Run the Streamlit app:
+> By default we are using below models:
+> llm_model = "llama3.2:3b"
+> embed_model = "mxbai-embed-large:335m"
+5. Run the Streamlit app:
    ```bash
     streamlit run app.py
    ```
+
+   
