@@ -24,8 +24,12 @@ Basic Streamlit App to connect to Ollama Models running locally and converse wit
     pip install ollama
     pip install langchain-ollama
    ```
+3. Before running the app, make sure you have completed the [setup]((https://github.com/rajalok83/ollama-setup/blob/main/README.md) with the OLLAMA models in [app.py](./app.py) and running OLLAMA
+   ```bash
+    ollama serve
+   ```  
 
-3. Run the Streamlit app:
+4. Run the Streamlit app:
    ```bash
     streamlit run app.py
    ```
